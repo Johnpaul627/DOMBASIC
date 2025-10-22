@@ -1,0 +1,56 @@
+/* 👜 Bag Store Theme */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Product Cards */
+.product-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Cart Items */
+.cart-item {
+  background-color: #fff4ee;
+  color: #333;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f97316;
+}
+
+.cart-item button {
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.cart-item button:hover {
+  background-color: #ea580c;
+  transform: scale(1.1);
+}

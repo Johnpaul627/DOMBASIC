@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>👜 Bag Store</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-10 font-sans">
+
+  <h1 class="text-3xl font-extrabold text-orange-600 mb-8 drop-shadow-sm">
+    👜 Bag Store
+  </h1>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
+
+    <!-- 🛍️ Products Section -->
+    <div class="bg-white rounded-2xl p-6 shadow-xl">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center border-b pb-2">Available Bags</h2>
+      <div id="productList" class="grid grid-cols-2 sm:grid-cols-3 gap-4"></div>
+    </div>
+
+    <!-- 🛒 Cart Section -->
+    <div class="bg-white rounded-2xl p-6 shadow-xl">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center border-b pb-2">Your Cart</h2>
+      <div id="cart" class="space-y-4"></div>
+
+      <div class="mt-6 text-center border-t pt-4">
+        <h3 id="cartTotal" class="text-lg font-bold text-gray-800 mb-4"></h3>
+        <button id="clearCartBtn"
+          class="bg-red-500 text-white font-semibold px-4 py-2 rounded-lg shadow hover:bg-red-600 transition-all">
+          🧹 Clear Cart
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
