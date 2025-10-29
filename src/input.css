@@ -1,3 +1,8 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* 👜 Bag Store Theme */
 body {
   font-family: 'Poppins', sans-serif;

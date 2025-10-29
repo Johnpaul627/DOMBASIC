@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.15",
     "@tailwindcss/vite": "^4.1.15",
